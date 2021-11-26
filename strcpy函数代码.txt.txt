@@ -12,6 +12,7 @@ dst[i]=src[i];
 //字符串结束标记
 dst[len]='\0';
 return dst;
-<<<<<<< HEAD
-
+/**
+本地编辑
+**/
 }
