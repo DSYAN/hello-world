@@ -6,13 +6,19 @@ for(char* p=src;*p!=NULL;p++)
 len++;
 //申请内存空间
 char* dst=(char*)malloc(sizeof(char)*(len+1));
-//字符复制
+//字符逐个复制
 for(int i=0;i<len;i++)
 dst[i]=src[i];
 //字符串结束标记
 dst[len]='\0';
 return dst;
+
 /**
 本地编辑
 **/
 }
+
+
+
+
+
